@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1564432975 "cv.tex" "cv.pdf" "cv" 1564432977
+["pdflatex"] 1564433485 "cv.tex" "cv.pdf" "cv" 1564433486
   "/dev/null" 1562453724 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1557554374 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1557554374 1004 54797486969f23fa377b128694d548df ""
@@ -74,8 +74,8 @@
   "/usr/share/texmf-dist/tex/xelatex/xunicode/xunicode.sty" 1557554374 205722 8027ed7ab2230086d647802c25f3ee42 ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1557554374 33301 a3134070eacafb10b1f371612ce2650d ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1562873492 4111450 25b26f3071b581112da4c3c57a110594 ""
-  "cv.aux" 1564432976 388 5e04580f4d05827562acf118d3c2f82b "pdflatex"
-  "cv.tex" 1564432975 4848 50711a20c87b09c91e354b735805baf1 ""
+  "cv.aux" 1564433486 388 5e04580f4d05827562acf118d3c2f82b "pdflatex"
+  "cv.tex" 1564433484 4865 883c1165a6a7a91f88b7b0f5a78acb01 ""
   (generated)
   "cv.pdf"
   "cv.log"

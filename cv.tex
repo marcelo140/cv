@@ -1,0 +1,91 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage{marvosym}
+\usepackage{fontspec} 					    %for loading fonts
+\usepackage{xunicode,xltxtra,url,parskip} 	%other packages for formatting
+\RequirePackage{color,graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[big]{layaureo} 				    %better formatting of the A4 page
+\usepackage{titlesec}					    %custom \section
+\usepackage{mathtools}
+\usepackage{fontawesome}
+
+%FONTS
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[
+  SmallCapsFont = fonts/Fontin-SmallCaps.otf,
+  BoldFont = fonts/Fontin-Bold.otf,
+  ItalicFont = fonts/Fontin-Italic.otf
+]{Fontin.otf}
+
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{3pt}{3pt}
+%Tweak a bit the top margin
+%\addtolength{\voffset}{-1.3cm}
+
+\begin{document}
+
+\pagestyle{empty} % non-numbered pages
+
+\begin{center}
+\Huge{Marcelo Miranda}
+
+\small{marcelo.caridade@protonmail.com}
+
+\small{\faGithub \, marcelo140}
+\bigskip\par
+\end{center}
+
+\section{Summary}
+\small{As a developer I have a special interest in distributed systems and how architectures lead to scalability issues. I also enjoy exploring how different paradigms such as the actor model let you reason differently about concurrency.  
+Another topic that interests me are strong type systems. As expected from my formal methods background I am concerned with safety and correctness issues and thus the ability to guarantee the absence of several classes of bugs at compile time really appeals me.}
+
+\section{Skills}
+
+\begin{itemize}
+    \item Software development experience with C, C\#, Elixir, Haskell, Java, Python, Ruby, Rust.
+    \item Experience in using \textit{Ruby on Rails} and \textit{Phoenix} for web development.
+    \item Experience with formal methods tools such as Alloy, mCRL2, NuSMV and TLA+.
+    \item Experience with Linux/GNU.
+    \item Fluent in English and Portuguese.
+\end{itemize}
+
+\section{Experience}
+\begin{tabular}{r|p{11cm}}
+    \textsc{Feb 2019 -- \newline July 2019} & \textsc{Intern at United Technologies Research Centre}, Cork, Ireland \\
+                          & \footnotesize{In \textit{UTRC} I did research on how the use of a formal methods based tool can assist engineers with the verification of system's design. My work here will culminated in my master thesis.} \\
+
+    \multicolumn{2}{c}{} \\
+
+    \textsc{2017--2019} & Master of Engineering in \textsc{Software Engineering} \\
+                     & University of Minho, Braga \\
+                     & Specialisation in \textit{Distributed Systems} and \textit{Formal Methods} \\
+                     & \footnotesize{Coursework: Program Specification and Verification $\bullet$ Program Calculus $\bullet$ Model Checking $\bullet$ Large Scale Distributed Systems $\bullet$ Fault Tolerance $\bullet$ Distributed Systems Paradigms $\bullet$ Parallel Computing $\bullet$ Information Security} \\
+
+    \multicolumn{2}{c}{} \\
+
+    \textsc{Summer 2017} & Summer Intern at \textsc{Idryl Technologies}, Braga, Portugal \\
+                         & \footnotesize{In \textit{Idryl Technologies} I worked on the prototype of a real-time messaging and video conference platform over peer-to-peer connections. The platform was developed using \textit{WebRTC} and \textit{ASP.NET}.} \\
+
+    \multicolumn{2}{c}{} \\
+
+    \textsc{2015--2018} & Member at \textsc{CeSIUM}, Braga, Portugal \\
+                          & \footnotesize{CeSIUM represents the software engineering students at University of Minho. During my years in CeSIUM I was responsible for maintaining and enhancing two different \textit{Ruby on Rails} platforms.} \\
+
+    \multicolumn{2}{c}{} \\
+
+    \textsc{2015--2019} & Mentor at CoderDojo Braga, Braga, Portugal \\
+                          & \footnotesize{CoderDojo is a global volunteer-led community of free programming clubs for young people between 7 and 17. In CoderDojo Braga we teach children to program and introduce them to computer science.} \\
+
+    \multicolumn{2}{c}{} \\
+
+    \textsc{2014--2017} & Bachelor of Engineering in \textsc{Software Engineering} \\
+                       & University of Minho, Braga \\
+                       & \footnotesize{Coursework: Operating Systems $\bullet$ Databases $\bullet$ Algorithms and Complexity $\bullet$ Programming
+Paradigms $\bullet$ Computer Architectures $\bullet$ Discrete Maths $\bullet$ Language Processing $\bullet$ Distributed Systems $\bullet$ Computer Networks $\bullet$ Numerical Methods $\bullet$ Computer Graphics}
+\end{tabular}
+
+\section{Side projects}
+\small{I am currently working on a Lisp interpreter written in Rust. I started this project to learn more about Rust but I like the fact that I now have a base to explore how concepts such as continuations or laziness work underneath. At the moment, I am working on achieving self-hosting.}
+
+\end{document}

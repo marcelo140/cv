@@ -9,6 +9,8 @@ INPUT /usr/share/texmf-dist/tex/latex/base/size10.clo
 INPUT /usr/share/texmf-dist/tex/latex/base/size10.clo
 INPUT /usr/share/texmf-dist/tex/latex/marvosym/marvosym.sty
 INPUT /usr/share/texmf-dist/tex/latex/marvosym/marvosym.sty
+INPUT /usr/share/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/share/texmf-dist/tex/latex/tools/array.sty
 INPUT /usr/share/texmf-dist/tex/latex/fontspec/fontspec.sty
 INPUT /usr/share/texmf-dist/tex/latex/fontspec/fontspec.sty
 INPUT /usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty

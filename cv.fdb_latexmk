@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1564433485 "cv.tex" "cv.pdf" "cv" 1564433486
+["pdflatex"] 1564440481 "cv.tex" "cv.pdf" "cv" 1564440482
   "/dev/null" 1562453724 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1557554374 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1557554374 1004 54797486969f23fa377b128694d548df ""
@@ -67,6 +67,7 @@
   "/usr/share/texmf-dist/tex/latex/tipa/t3cmr.fd" 1557554374 1257 fd5b1c2f0106f9cf12cdb2ff961987c5 ""
   "/usr/share/texmf-dist/tex/latex/tipa/t3enc.def" 1557554374 26483 c461a68c34040cb0d96c43e86c012a6d ""
   "/usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty" 1557556602 37387 afa86533e532701faf233f3f592c61e0 ""
+  "/usr/share/texmf-dist/tex/latex/tools/array.sty" 1557554374 12527 31ab547f6520657998ecf91709f950ac ""
   "/usr/share/texmf-dist/tex/latex/tools/calc.sty" 1557554374 10212 357072c1d20578a30d6387d8a22e72ab ""
   "/usr/share/texmf-dist/tex/latex/url/url.sty" 1557554374 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty" 1557554374 55589 34128738f682d033422ca125f82e5d62 ""
@@ -74,9 +75,9 @@
   "/usr/share/texmf-dist/tex/xelatex/xunicode/xunicode.sty" 1557554374 205722 8027ed7ab2230086d647802c25f3ee42 ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1557554374 33301 a3134070eacafb10b1f371612ce2650d ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1562873492 4111450 25b26f3071b581112da4c3c57a110594 ""
-  "cv.aux" 1564433486 388 5e04580f4d05827562acf118d3c2f82b "pdflatex"
-  "cv.tex" 1564433484 4865 883c1165a6a7a91f88b7b0f5a78acb01 ""
+  "cv.aux" 1564440482 483 d1f401e8908dd7d9d5f6acbce4cfcab0 "pdflatex"
+  "cv.tex" 1564440479 6185 44301a008bf10e5ccfcac08a839984c1 ""
   (generated)
+  "cv.aux"
   "cv.pdf"
   "cv.log"
-  "cv.aux"

@@ -1,0 +1,58 @@
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+\cvsection{Projects}
+
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cventries}
+
+%---------------------------------------------------------
+  \cventry
+    {} % Organization
+    {Log-structured merge-tree} % Project
+    {} % Location
+    {2023} % Date
+    {
+      \begin{cvitems} % Description(s) of project
+        \item {Rust implementation of a log-structured merge-tree, a data structure commonly used internally by databases. The implementation supports concurrent reads and writes, crash-recovery, and background compaction of SSTables.}
+      \end{cvitems}
+    }
+
+  \cventry
+    {} % Organization
+    {Event Router} % Project
+    {} % Location
+    {2021} % Date
+    {
+      \begin{cvitems} % Description(s) of project
+        \item {Rust rewrite of a Java project based on kafka-streams using the low-level Kafka API to implement state stores, dead-letter queues and conditional routing.}
+      \end{cvitems}
+    }
+
+  \cventry
+    {}
+    {Length-extension attack} % Project
+    {}
+    {2020}
+    {
+      \begin{cvitems} % Description(s) of project
+        \item {Rust tool to perform length-extension attacks on messages signed with SHA-256. Started this project to learn why SHA-256 is not safe for message signing and how HMAC address the issues with SHA-256.}
+      \end{cvitems}
+    }
+    
+  \cventry
+    {} % Organization
+    {Lisp Interpreter} % Project
+    {} % Location
+    {2019} % Date
+    {
+      \begin{cvitems} % Description(s) of project
+        \item {Developed a List interpreter capable of self-hosting in Rust.}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+\end{cventries}
